@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+
+<body>
+	<div class="container">
+		<div class="row">
+
+
+		//	<div class="col-md-6">
+		//	<button type="button" data-target="#">
+		//			Login
+		//		</button>
+		//	<button type="button" data-target="#">
+		//			Sign up
+		//		</button>
+		//	</div>
+			
+
+			<div class="modal fade" id="kayitol" tabindex="-1" role="dialog">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLabel">Sign up</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+
+
+
+						<div class="modal-body">
+							<form action="kaydol.php" method="POST">
+								<label>Username</label>
+								<input class="form-control" type="text" name="kadi">
+								<label>eMail </label>
+								<input class="form-control" type="email" name="mail">
+								<label>Phone</label>
+								<input class="form-control" type="number" name="tel">
+								<label>Adress</label>
+								<input class="form-control" type="text" name="adres">
+								<label>Password</label>
+								<input class="form-control" type="password" name="sifre">
+								<br>
+								<button type="submit" class="btn btn-success">Sign Up</button>
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+
+			<div class="modal fade" id="uyegiris" tabindex="-1" role="dialog">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="ModalLabel">Log in</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+						</div>
+
+
+
+						<div class="modal-body">
+							<form action="girisyap.php" method="POST">
+								<label>Username</label>
+								<input class="form-control" type="text" name="kadi">
+								<label>Password</label>
+								<input class="form-control" type="password" name="sifre">
+								<br>
+								<button type="submit" class="btn btn-primary">Login</button>
+								<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+							</form>
+						</div>
+
+
+
+					</div>
+				</div>
+			</div>	
+		</div>  
+	</body>
+</html>
